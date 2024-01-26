@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] TextMeshProUGUI countText;
 
     [SerializeField] GameObject winTextObject;
+    [SerializeField] GameObject secretTextObject;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
         count = 0;
         SetCountText();
         winTextObject.SetActive(false);
+        secretTextObject.SetActive(false);
     }
     void OnMove(InputValue movementValue)
     {
@@ -39,6 +41,11 @@ public class PlayerController : MonoBehaviour
         Vector3 movement = new Vector3(movementX, 0.0f, movementZ);
 
         rb.AddForce(movement * speed);
+
+        if (gameObject.transform.position.y < -10)
+        {
+            gameObject.transform.position = new Vector3(0, .5f, 0);
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -50,6 +57,15 @@ public class PlayerController : MonoBehaviour
             count++;
             SetCountText();
         }
+
+        else if (other.gameObject.CompareTag("Secret"))
+        {
+            other.gameObject.SetActive(false);
+
+            count += 5;
+            secretTextObject.SetActive(true);
+            SetCountText();
+        }
     }
     void SetCountText()
     {
@@ -58,8 +74,6 @@ public class PlayerController : MonoBehaviour
         if (count >= maxCount)
         {
             winTextObject.SetActive(true);
-
-            Time.timeScale = 0f;
         }
     }
 }
