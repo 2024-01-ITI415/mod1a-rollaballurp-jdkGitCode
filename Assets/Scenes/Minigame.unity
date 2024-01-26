@@ -254,6 +254,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -323,6 +333,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PickUp (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
@@ -642,6 +662,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -710,6 +740,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PickUp (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
@@ -930,6 +970,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PickUp (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
@@ -1314,6 +1364,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1594,6 +1654,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PickUp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1662,6 +1732,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 848633651725548118, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_TagString
+      value: PickUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1213907160769032805, guid: cc148dca9000a2c479de0f7c486f5188,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6799448477628204730, guid: cc148dca9000a2c479de0f7c486f5188,
         type: 3}
