@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     private float movementX;
-    private float movementY;
+    private float movementZ;
     [SerializeField] float speed = 0;
 
     private int count;
@@ -31,12 +31,13 @@ public class PlayerController : MonoBehaviour
         Vector2 movementVector = movementValue.Get<Vector2>();
 
         movementX = movementVector.x;
-        movementY = movementVector.y;
+        movementZ = movementVector.y;
     }
 
     private void FixedUpdate()
     {
-        Vector3 movement = new Vector3(movementX, 0.0f, movementY);
+        Vector3 movement = new Vector3(movementX, 0.0f, movementZ);
+
         rb.AddForce(movement * speed);
     }
 
@@ -46,7 +47,7 @@ public class PlayerController : MonoBehaviour
         {
             other.gameObject.SetActive(false);
 
-            count = count + 1;
+            count++;
             SetCountText();
         }
     }
